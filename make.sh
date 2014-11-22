@@ -1,6 +1,6 @@
 dir=~/dotfiles-arch
 olddir=~/dotfiles-arch_old
-files="bash_profile i3 xinitrc Xmodmap Xresources config"
+files="colorschemes bashrc bash_profile i3 xinitrc Xmodmap Xresources config"
 
 echo "Creating $olddir for backup of any existing dotfiles in ~"
 mkdir -p $olddir
