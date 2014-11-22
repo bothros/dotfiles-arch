@@ -1,0 +1,7 @@
+# warn_time="86400"  # seconds
+# rss_feed="https://www.archlinux.org/feeds/news/"
+# mail_list="https://lists.archlinux.org/pipermail/arch-general/2014-November.txt.gz"
+# log_file="/var/log/arch-news.log"
+# pacman_log="/var/log/pacman.log"
+# pacdiff_program="pacdiff"
+# pacman_program="pacman"
