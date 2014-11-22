@@ -12,3 +12,4 @@ PS1='[\u@\h \W]\$ '
 export PATH="$HOME/.dynamic-colors/bin:$PATH"
 export DYNAMIC_COLORSCHEMES="$HOME/.colorschemes"
 source $HOME/.dynamic-colors/completions/dynamic-colors.bash
+dynamic-colors switch white
