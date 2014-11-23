@@ -7,3 +7,7 @@ rxvt-unicode
 ttf-font
 xvkbd
 bothros/dynamic_colorschemes (git fork of sos4nt/dynamic_colorschemes)
+gvim (for +clipboard)
+alsa-utils
+chromium
+chromium-pepper-flash (AUR)
