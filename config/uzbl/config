@@ -301,6 +301,13 @@ set ebind     = @mode_bind global,-insert
 # Open current page in chromium
 @cbind  gc                 = spawn @scripts_dir/chrome.sh
 
+# Lastpass binds
+# Go to lastpass.com
+@cbind  LL = event REQ_NEW_WINDOW https://lastpass.com/?ac=1&nk=1
+# Lastpass login
+# Doesn't work? and I'm not actually sure how important it is. I may actually want to switch to a different password manager
+# @cbind Ll = script @scripts_dir/login.js
+
 # Use socat to directly inject commands into uzbl-core and view events
 # raised by uzbl-core:
 #@cbind  <Ctrl><Mod1>t  = sh 'xterm -e "socat unix-connect:\"$UZBL_SOCKET\" -"'
