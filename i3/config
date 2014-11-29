@@ -172,7 +172,7 @@ bindsym $mod+Shift+w mode "wallpaper"
 
 mode "wallpaper/0" {
     bindsym r exec "$HOME/random_wallpaper/rw_randomize.py 0"
-    bindsym Shift+b exec "$HOME/random_wallpaper/rw_blacklist.py 0"
+    bindsym Shift+d exec "$HOME/random_wallpaper/rw_blacklist.py 0"
 
     bindsym BackSpace mode "wallpaper"
     bindsym Return mode "default"
@@ -181,7 +181,7 @@ mode "wallpaper/0" {
 
 mode "wallpaper/1" {
     bindsym r exec "$HOME/random_wallpaper/rw_randomize.py 1"
-    bindsym Shift+b exec "$HOME/random_wallpaper/rw_blacklist.py 1"
+    bindsym Shift+d exec "$HOME/random_wallpaper/rw_blacklist.py 1"
 
     bindsym BackSpace mode "wallpaper"
     bindsym Return mode "default"
