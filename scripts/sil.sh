@@ -2,7 +2,8 @@
 #
 # Opens sil in workspace $1, in a reasonable layout
 
-cd $HOME/AUR/sil/src/Sil
+# cd $HOME/AUR/sil/src/Sil
+cd /usr/share/sil
 
 [[ -n "$1" ]] && i3-msg "workspace $1"
 i3-msg "append_layout $HOME/.i3/sil-workspace.json"
