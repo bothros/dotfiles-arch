@@ -9,6 +9,7 @@ alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
 alias pacman='sudo pacmatic'
+alias vmail='$HOME/scripts/vmail.sh'
 
 # Add ruby gem directory to PATH
 export PATH="$HOME/.gem/ruby/2.1.0/bin:$PATH"
