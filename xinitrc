@@ -20,7 +20,7 @@ fi
 [[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
 
 # Run random_wallpaper's wallpaper randomizer
-[[ -f ~/rw_randomize.py ]] && ~/rw_randomize.py
+[[ -f ~/random_wallpaper/rw_randomize.py ]] && ~/random_wallpaper/rw_randomize.py
 
 # Start i3
 exec i3 2> ~/i3err
